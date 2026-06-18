@@ -1,0 +1,89 @@
+
+# cargo-vet audits file
+
+[[audits.futures-core]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "0.3.31 -> 0.3.32"
+notes = "Only adding a debug assert"
+
+[[audits.futures-io]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "0.3.31 -> 0.3.32"
+notes = "Only metadata changes"
+
+[[audits.futures-sink]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "0.3.31 -> 0.3.32"
+notes = "Only metadata changes"
+
+[[audits.futures-task]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "0.3.31 -> 0.3.32"
+notes = "Only metadata changes"
+
+[[audits.once_cell_polyfill]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "1.70.1 -> 1.70.2"
+notes = "Only metadata changes"
+
+[[audits.quinn-udp]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "0.5.13 -> 0.5.14"
+notes = "Adding support for one error code"
+
+[[audits.rand_core]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "0.9.3 -> 0.9.5"
+notes = "Only doc_cfg changes"
+
+[[audits.regex]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "1.12.3 -> 1.12.4"
+notes = "Only metadata changes"
+
+[[audits.rustc-demangle]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "0.1.24 -> 0.1.27"
+
+[[audits.serde_spanned]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.4 -> 1.1.1"
+notes = "Only metadata changes"
+
+[[audits.toml_datetime]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "0.7.5+spec-1.1.0 -> 1.1.1+spec-1.1.0"
+
+[[audits.toml_writer]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.6+spec-1.1.0 -> 1.1.1+spec-1.1.0"
+notes = "Only metadata changes"
+
+[[audits.walkdir]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-run"
+delta = "2.3.3 -> 2.5.0"
+
+[[audits.webpki-root-certs]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.4 -> 1.0.8"
+notes = "Certificate changes"
+
+[[audits.winapi-util]]
+who = "Sosthène Guédon <sosthene@nitrokey.com>"
+criteria = "safe-to-deploy"
+delta = "0.1.9 -> 0.1.11"
+notes = "Only metadata changes"
